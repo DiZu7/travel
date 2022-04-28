@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&family=Nunito:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="carousel.css" />
+</head>
+<body>
+<header class="header" id="header">
+        <div class="container">
+            <div class="header_upper_part">
+                <img src="img/logo.png" alt="Rhea" class="logo">
+                <nav class="nav">
+                    <a href="#" class="nav_link nav_link_active">Home</a>
+                    <a href="#" class="nav_link">Video</a>
+                    <a href="#" class="nav_link">Destinations</a>
+                    <a href="#" class="nav_link">Booking</a>
+                    <a href="#" class="nav_link nav_link_sign">Sign In</a>
+                </nav>
+            </div>
+            <div class="wrapper_header_main">
+                <div class="header_main">
+                    <h1 class="header_title">
+                        Travel around
+                        the world
+                    </h1>
+                    <p class="header_info">
+                        Plan and book your perfect trip with expert advice,
+                        travel tips, destination information and
+                        inspiration from us.
+                    </p>
+                    <a href="#" class="btn">
+                        Sign Up Now
+                    </a>
+                </div>
+                <img src="img/main_icon.png" class="main_icon">
+            </div>
+        </div>
+</header>
+
+<section class="places" id="places">
+    <div class="container">
+        <div class="wrapper_places">
+            <div class="gallery">
+                <div class="gallery-container">
+                    <img class="gallery-item gallery-item-1" src="img/Maldives.png">
+                    <img class="gallery-item gallery-item-2" src="img/kathmandu.png">
+                    <img class="gallery-item gallery-item-3" src="img/Raja%20ampat.png">
+                </div>
+                <div class="gallery-controls"></div>
+            </div>
+            <div class="places_main">
+                <h2 class="places_title">Amazing places to enjoy
+                    your travel
+                </h2>
+                <p class="places_info">
+                    Etiam facilisis, sapien quis porta dignissim, orci nisi pharetra dui, varius vehicula ligula nulla sit amet lorem. Aenean in ves-<br> tibulum quam. Cras commodo varius neque, non gravida diam ultrices nec. Cras nulla mauris, fermentum nec libero in.
+                </p>
+                <a href="#" class="btn btn_explore">
+                    Explore
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="videos_part" id="videos_part">
+    <div class="container">
+        <div class="videos_upper_part">
+            <h2 class="videos_title">
+                Featured videos
+            </h2>
+            <p class="videos_info">
+                Aliquam sodales vitae ex tincidunt consectetur. Etiam eleifend malesuada magna, at imperdiet justo euismod eu. Aliquam vel imper-<br>det mi, et convallis eros. Duis fermentum fringilla nisl at vulputate. Nunc nec lorem faucibus, molestie nisi id, elementum sem. Sed
+                vulputate tempor augue a efficitur urna, ultrices eu. Duis vel turpis et arcu.
+            </p>
+        </div>
+        <div class="videos_slider_wrapper" id="videos_slider_wrapper" >
+            <video class="videos_slider" id="videos_slider" autoplay muted loop>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+            <ul class="videos_navigation">
+                <li onclick="videoUrl('video1.mp4', 1)" class="videos_navigation_list videos_navigation_list_bg" id="1">
+                    <img src="thumb1.png" class="thumb_video">
+                    <p class="videos_navigation_list_info">When go to Maldives</p>
+
+                </li>
+                <li onclick="videoUrl('video2.mp4', 2)" class="videos_navigation_list" id="2">
+                    <img src="thumb2.png" class="thumb_video">
+                    <p class="videos_navigation_list_info">Top things to do in
+                        Kathmandu</p>
+                </li>
+                <li onclick="videoUrl('video3.mp4', 3)" class="videos_navigation_list" id="3">
+                    <img src="thumb3.png" class="thumb_video">
+                    <p class="videos_navigation_list_info">Tanzania’s deadly
+                        pink lake</p>
+                </li>
+                <li onclick="videoUrl('video4.mp4', 4)" class="videos_navigation_list" id="4">
+                    <img src="thumb4.png" class="thumb_video">
+                    <p class="videos_navigation_list_info">Miracles of Zanzibar</p>
+                </li>
+                <li onclick="videoUrl('video5.mp4', 5)" class="videos_navigation_list"id="5">
+                    <img src="thumb5.png" class="thumb_video">
+                    <p class="videos_navigation_list_info">Exploring Malaysia’s
+                        creative capital</p>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--<section class="categories" id="categories">-->
+    <div class="container"></div>
+<!--</section>-->
+
+<section class="experiences" id="experiences">
+    <div class="container"></div>
+</section>
+
+<section class="booking" id="booking">
+    <div class="container">
+
+    </div>
+</section>
+
+<footer class="footer" id="footer">
+    <div class="container">
+
+    </div>
+</footer>
+
+<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-3.4.0.js"></script>
+
+<script src="carousel.js"></script>
+<script src="video_carousel.js"></script>
+
+</body>
+</html>

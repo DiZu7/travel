@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.wrapper_container {
+    width: 1920px;
+    height: 1260px;
+    margin: 0 auto;
+    background: url("img/main_icon.png") right no-repeat;
+    background-size: auto;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-bottom: 120px;
+    padding-top: 75px;
+}
+
+.header_upper_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 764px;
+    height: 57px;
+}
+.nav_link {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #bfbdbd;
+    text-decoration: none;
+    padding: 12px 35px;
+}
+
+.nav_link:hover {
+    border-bottom: solid 3px #4497f3;
+    color: black;
+    transition: color 0.5s ease;
+}
+
+.nav_link_active {
+    color: #4497f3;
+}
+
+.nav_link_sign {
+    color: #4497f3;
+    border: #4497f3 solid 3px;
+    padding: 12px 45px;
+}
+
+
+.nav_link_sign:hover {
+    background: #4497f3;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.header_title {
+    font-size: 75px;
+    font-weight: 800;
+    width: 530px;
+    line-height: 1.1em;
+    color: #091e40;
+    letter-spacing: 0.04em;
+}
+
+.header_info {
+    color: #81858e;
+    width: 465px;
+    letter-spacing: -0.03em;
+    margin-top: 55px;
+    margin-bottom: 120px;
+}
+
+.btn {
+    padding: 15px 45px;
+    text-align: center;
+    background: #3984f3;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #fff;
+    border: #3984f3 solid 3px ;
+    color: #3984f3;
+    transition: all 0.5s ease;
+}
+
+.wrapper_header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_main {
+
+}
+.main_icon {
+    margin-right: -160px;
+    margin-top: 100px;
+}
+
+.places {
+    padding-top: 120px;
+}
+.wrapper_places {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_places_images {
+    display: flex;
+    justify-content: space-between;
+    width: 886px;
+}
+
+
+.kathmandu {
+    margin-top: -75px;
+    background: url("img/kathmandu.png");
+    width: 372px;
+    height: 500px;
+    padding-top: 31px;
+}
+.stars {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0;
+}
+
+.stars_text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #a0a0a0;
+
+}
+
+.raja_ahmat {
+    background: url("img/Raja ampat.png");
+    width: 372px;
+    height: 500px;
+    padding-top: 31px;
+}
+
+
+.price {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    background: #3984f3;
+    width: 110px;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 360px;
+}
+
+.name_place {
+    color: #fff;
+    padding-left: 26px;
+}
+
+.maldives {
+    margin-left: -160px;
+    background: url("img/Maldives.png");
+    width: 225px;
+    height: 500px;
+    padding-top: 441px;
+    padding-left: 0;
+}
+
+.name_place_maldives {
+    padding-left: 0px;
+}
+
+.places_main {
+    width: 585px;
+}
+
+.places_title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #091e40;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+.places_info {
+    color: #81858e;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 2.0em;
+    margin-bottom: 100px;
+}
+
+.btn_explore {
+    padding: 12px 65px;
+}
+
+/* section videos */
+
+.videos_title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #091e40;
+    text-align: center;
+}
+
+.videos_info {
+    padding: 65px 180px;
+    text-align: center;
+    color: #81858e;
+    font-weight: 400;
+    line-height: 2.0em;
+    font-size: 21px;
+}
+
+/* video_slider */
+.videos_slider_wrapper {
+    position: relative;
+    width: 100%;
+    height: 615px;
+}
+
+.videos_slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1070px;
+    height: 610px;
+    object-fit: cover;
+}
+
+.videos_navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   /* align-items: center;*/
+    width: 515px;
+
+}
+.videos_navigation_list {
+    list-style: none;
+    cursor: pointer;
+    opacity: 0.85;
+    transition: 0.5s;
+    display: flex;
+    padding: 15px;
+}
+
+.videos_navigation_list_info {
+    width: 294px;
+    padding: 20px 0 0 10px ;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.videos_navigation_list:hover {
+    opacity: 1.0;
+}
+
+.thumb_video {
+    height: 92px;
+    width: 196px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.videos_navigation_list_bg {
+    background-color: #f0f0f0;
+}
+
